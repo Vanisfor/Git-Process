@@ -159,6 +159,7 @@ git push -f #由于造成顺序错乱 所以需要-f 十分不建议在主分支
 git branch -d <branch_name>
 ```
 13）merge 1 结合 12 在github上直接操作
+
 14）merge 2 先在自己的电脑上merge之后再push到github
 ```
 git pull #保证a,b进度一样 这里慎用git push -f 会版本回退 更新内容消失
