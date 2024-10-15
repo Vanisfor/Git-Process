@@ -1,7 +1,7 @@
 
 *1*. Git 四个区域: 远程，本地仓库，暂存区，工作区
 
-![[1728940033317.png]]
+![image](https://github.com/Vanisfor/test/blob/main/1728940033317.png)
 
 ```
 一次提交多个文件
@@ -133,3 +133,8 @@ git reset --hard HEAD~1 #全删 回到初始
 	git push -f #如果想同步到远端 必须使用-f 千万别在共有分支整嗷
 
 ```
+9）断开远程仓库链接
+```
+git remote remove origin
+```
+祝你工作顺利嗷 别被穿小鞋:)
