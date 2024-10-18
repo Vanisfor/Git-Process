@@ -96,7 +96,6 @@ git push
 ```
 
 8）版本回退
-
 ```
 git reset <your_file> #从暂缓区移除
 
@@ -131,10 +130,43 @@ git reset --hard HEAD~1 #全删 回到初始
 	git reset --hard HEAD~1 #砍掉一整个commit
 	
 	git push -f #如果想同步到远端 必须使用-f 千万别在共有分支整嗷
-
 ```
-9）断开远程仓库链接
+9）branch
+```
+git clone your_url
+git checkout -b branch_name
+git branch #check branch
+git branch -a #check branch in remote repo
+git add -u/ .
+git commit -m "branch_create" #下面不可以直接push 因为没有上游
+git push -u origin HEAD
+```
+10）断开远程仓库链接
 ```
 git remote remove origin
+```
+11）***由于a,b都在更新 导致push有冲突
+```
+git switch main
+git pull
+git switch new-feature
+git rebase main #会询问需要哪个版本
+git rebase --continue #解决一个冲突 如果还有冲突需要再次git rebase rebase完之后会接在main后面
+git push -f #由于造成顺序错乱 所以需要-f 十分不建议在主分支上做
+```
+12）删除branch 只会删除自己本地上的 github的不会
+```
+git branch -d <branch_name>
+```
+13）merge 1 结合 12 在github上直接操作
+
+14）merge 2 先在自己的电脑上merge之后再push到github
+```
+git pull #保证a,b进度一样 这里慎用git push -f 会版本回退 更新内容消失
+#如果发生冲突参考 12
+git switch main
+git merge <branch_name>
+git commit #在vim查看下merge的信息 ：wq保存退出
+git push
 ```
 祝你工作顺利嗷 别被穿小鞋:)
