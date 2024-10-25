@@ -169,4 +169,3 @@ git merge <branch_name>
 git commit #在vim查看下merge的信息 ：wq保存退出
 git push
 ```
-祝你工作顺利嗷 别被穿小鞋:)
