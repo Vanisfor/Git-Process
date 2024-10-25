@@ -176,7 +176,7 @@ Station,ID,Bikes Available,Docks Available
 "Nutford Place, Marylebone",BikePoints_188,7,10
 "Claremont Square, Angel",BikePoints_189,6,12
 "Rampayne Street, Pimlico",BikePoints_190,0,19
-"Hyde Park Corner, Hyde Park",BikePoints_191,15,21
+"Hyde Park Corner, Hyde Park",BikePoints_191,false,15
 "Wardour Street, Soho",BikePoints_192,11,4
 "Bankside Mix, Bankside",BikePoints_193,19,41
 "Hop Exchange, The Borough",BikePoints_194,41,14
@@ -353,7 +353,7 @@ Station,ID,Bikes Available,Docks Available
 "Turquoise Island, Notting Hill",BikePoints_379,4,17
 "Stanhope Gate, Mayfair",BikePoints_380,13,8
 "Charlotte Street, Fitzrovia",BikePoints_381,13,1
-"Farm Street, Mayfair",BikePoints_382,14,1
+"Farm Street, Mayfair",BikePoints_382,11,3
 "Frith Street, Soho",BikePoints_383,14,1
 "Marloes Road, Kensington",BikePoints_384,2,13
 "Moor Street, Soho",BikePoints_386,12,1
@@ -410,6 +410,7 @@ Station,ID,Bikes Available,Docks Available
 "Jubilee Street, Stepney",BikePoints_450,12,16
 "Hermitage Court, Wapping",BikePoints_451,3,13
 "St. Katharine's Way, Tower",BikePoints_452,14,8
+"Garnet Street, Shadwell",BikePoints_453,16,7
 "Napier Avenue, Millwall",BikePoints_454,14,5
 "East Ferry Road, Cubitt Town",BikePoints_455,13,3
 "Parkway, Camden Town",BikePoints_456,32,1
@@ -687,6 +688,7 @@ Station,ID,Bikes Available,Docks Available
 "Queensdale Road, Shepherd's Bush",BikePoints_736,24,3
 "Fulham Broadway, Walham Green",BikePoints_737,18,7
 "Imperial Road, Sands End",BikePoints_738,27,10
+"Hortensia Road, West Brompton",BikePoints_739,10,18
 "Sirdar Road, Avondale",BikePoints_740,1,25
 "Freston Road, Avondale",BikePoints_741,8,14
 "Blenheim Crescent, Ladbroke Grove",BikePoints_742,7,14
@@ -706,7 +708,7 @@ Station,ID,Bikes Available,Docks Available
 "Prince of Wales Drive, Battersea Park",BikePoints_756,5,13
 "Harcourt Terrace, West Brompton",BikePoints_757,0,24
 "Westbourne Park Road, Portobello",BikePoints_758,1,21
-"Broadley Terrace, Marylebone",BikePoints_759,0,18
+"Broadley Terrace, Marylebone",BikePoints_759,1389627480000,
 "Elgin Avenue, Maida Hill",BikePoints_760,3,15
 "Humbolt Road, Fulham",BikePoints_761,0,26
 "Storey's Gate, Westminster",BikePoints_762,16,5
@@ -792,5 +794,3 @@ Station,ID,Bikes Available,Docks Available
 "Strand, Strand",BikePoints_857,35,0
 "Abbey Orchard Street, Westminster",BikePoints_864,19,9
 "Leonard Circus , Shoreditch",BikePoints_865,40,3
-"Hortensia Road, West Brompton",BikePoints_739,10,18
-"Garnet Street, Shadwell",BikePoints_453,16,7
